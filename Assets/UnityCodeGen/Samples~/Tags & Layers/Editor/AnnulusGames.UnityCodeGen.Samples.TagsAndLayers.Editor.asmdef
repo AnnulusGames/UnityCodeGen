@@ -1,0 +1,18 @@
+{
+    "name": "AnnulusGames.UnityCodeGen.Samples.TagsAndLayers.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:81d29a5e4682947dfa73ba6bd09fe0be"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
