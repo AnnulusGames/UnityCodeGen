@@ -166,6 +166,18 @@ partial class FooClass
 }
 ```
 
+## Samples
+
+<img src="https://github.com/AnnulusGames/UnityCodeGen/blob/main/Assets/UnityCodeGen/Documentation~/img3.png" width="600">
+
+Unity CodeGen samples are available from the Package Manager.
+Below is a list of samples included in the package.
+
+|  Sample Name  |  Description  |
+| ---------- | ------ |
+|  Tags & Layers |  A sample that generates a class that manages Tags, Layers and Sorting Layers with constants. |
+
+
 ## License
 
 [MIT License](LICENSE)

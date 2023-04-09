@@ -11,5 +11,12 @@
     "description": "Code Generation Library for Unity Editor",
     "dependencies": {
 
-    }
+    },
+    "samples": [
+        {
+            "displayName": "Tags & Layers",
+            "description": "A sample that generates a class that manages Tags, Layers and Sorting Layers with constants.",
+            "path": "Samples~/Tags & Layers"
+        }
+    ]
 }

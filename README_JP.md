@@ -165,6 +165,17 @@ partial class FooClass
 }
 ```
 
+## サンプル
+
+<img src="https://github.com/AnnulusGames/UnityCodeGen/blob/main/Assets/UnityCodeGen/Documentation~/img3.png" width="600">
+
+Unity CodeGenのサンプルはPackage Managerから手に入れることができます。
+以下は、パッケージに含まれるサンプルの一覧です。
+
+|  サンプル名  |  説明  |
+| ---------- | ------ |
+|  Tags & Layers |  Tags、Layers、Sorting Layersを定数として管理するクラスを生成するサンプル。 |
+
 ## ライセンス
 
 [MIT License](LICENSE)
