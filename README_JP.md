@@ -98,6 +98,17 @@ Tools/UnityCodeGen/Auto-generate on Compileにチェックを入れることで�
 
 Auto-generate on CompileがOnの場合、コンパイル終了時にGenerateを自動で実行し、生成コードになんらかの変更があった場合のみ再コンパイルを行います。
 
+## UnityCodeGenUtility
+UnityCodeGenUtilityクラスを利用することで、スクリプトから操作することも可能です。
+
+```cs
+// デフォルトの出力フォルダのパスを取得
+var path = UnityCodeGenUtility.defaultFolderPath;
+
+// 生成を実行
+UnityCodeGenUtility.Generate();
+```
+
 ## 応用
 
 ### 特定の属性が付加されたクラスに対して処理を行う

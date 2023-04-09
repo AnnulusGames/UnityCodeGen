@@ -98,6 +98,17 @@ It is possible to automate code generation by checking Tools/UnityCodeGen/Auto-g
 
 When Auto-generate on Compile is on, it will be automatically generated at the end of compilation and will be recompiled only if there is any change in the generated code.
 
+## Unity Code Gen Utility
+By using the UnityCodeGenUtility class, it is also possible to operate from your script.
+
+``` cs
+// get default output folder path
+var path = UnityCodeGenUtility.defaultFolderPath;
+
+// run generation
+UnityCodeGenUtility.Generate();
+```
+
 ## Advanced
 
 ### Perform processing on classes with specific attributes added
