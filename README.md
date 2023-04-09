@@ -80,6 +80,17 @@ namespace SampleNamespace.Generated
 }
 ```
 
+## Specify Output Path
+By using GeneratorContext.OverrideFolderPath, you can specify the output folder path.
+
+```cs
+public void Execute(GeneratorContext context)
+    {
+        context.OverrideFolderPath("Assets/YourFolder/Generated");
+        ...
+    }
+```
+
 ## Auto-generate on Compile
 It is possible to automate code generation by checking Tools/UnityCodeGen/Auto-generate on Compile.
 
