@@ -9,7 +9,7 @@ Code Generation Library for Unity Editor
 
 ## 概要
 Unity CodeGenは、Unityエディタ上でのコード生成を効率化するライブラリです。
-独自のGeneratorを定義し、コードの生成を自動化することを可能にします。
+ICodeGeneratorを継承した独自のGeneratorを定義することで、コードの生成を自動的に行うことができます。
 
 ### 特徴
 * コード生成をスムーズに実装可能
@@ -65,7 +65,7 @@ namespace SampleNamespace.Generated
 
 エディタに戻り、Tools/UnityCodeGen/Generateを選択してコードを生成します。
 
-<img src="https://github.com/AnnulusGames/UnityCodeGen/blob/main/Assets/UnityCodeGen/Documentation~/img1.png" width="600">
+<img src="https://github.com/AnnulusGames/UnityCodeGen/blob/main/Assets/UnityCodeGen/Documentation~/img1.png" width="400">
 
 生成されたコードはAssets/UnityCodeGen.Generatedに配置されます。
 
@@ -83,7 +83,7 @@ namespace SampleNamespace.Generated
 ## コンパイル時に自動生成
 Tools/UnityCodeGen/Auto-generate on Compileにチェックを入れることでコード生成を自動化することが可能です。
 
-<img src="https://github.com/AnnulusGames/UnityCodeGen/blob/main/Assets/UnityCodeGen/Documentation~/img2.png" width="600">
+<img src="https://github.com/AnnulusGames/UnityCodeGen/blob/main/Assets/UnityCodeGen/Documentation~/img2.png" width="400">
 
 Auto-generate on CompileがOnの場合、コンパイル終了時にGenerateを自動で実行し、生成コードになんらかの変更があった場合のみ再コンパイルを行います。
 
