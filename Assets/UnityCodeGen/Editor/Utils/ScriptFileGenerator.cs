@@ -8,7 +8,6 @@ namespace UnityCodeGen
 {
     internal static class ScriptFileGenerator
     {
-        const string FOLDER_PATH = "Assets/UnityCodeGen.Generated";
         const string KEY_ISGENERATING = "UnityCodeGen-IsGenerating";
         const string EXTENSION_META = ".meta";
 
@@ -86,16 +85,18 @@ namespace UnityCodeGen
         {
             var changed = false;
 
-            if (!Directory.Exists(FOLDER_PATH))
+            var folderPath = context.overrideFolderPath ?? UnityCodeGenUtility.defaultFolderPath;
+
+            if (!Directory.Exists(folderPath))
             {
-                Directory.CreateDirectory(FOLDER_PATH);
+                Directory.CreateDirectory(folderPath);
             }
 
             foreach (var code in context.codeList)
             {
                 var hierarchy = code.fileName.Split('/');
                 var fileName = hierarchy[hierarchy.Length - 1];
-                var path = FOLDER_PATH;
+                var path = folderPath;
                 for (int i = 0; i < hierarchy.Length; i++)
                 {
                     path += "/" + hierarchy[i];
