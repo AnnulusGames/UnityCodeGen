@@ -168,7 +168,7 @@ partial class FooClass
 
 ## Samples
 
-<img src="https://github.com/AnnulusGames/UnityCodeGen/blob/main/Assets/UnityCodeGen/Documentation~/img3.png" width="600">
+<img src="https://github.com/AnnulusGames/UnityCodeGen/blob/main/Assets/UnityCodeGen/Documentation~/img3.png" width="400">
 
 Unity CodeGen samples are available from the Package Manager.
 Below is a list of samples included in the package.
