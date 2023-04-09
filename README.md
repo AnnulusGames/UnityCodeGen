@@ -85,10 +85,10 @@ By using GeneratorContext.OverrideFolderPath, you can specify the output folder 
 
 ```cs
 public void Execute(GeneratorContext context)
-    {
-        context.OverrideFolderPath("Assets/YourFolder/Generated");
-        ...
-    }
+{
+    context.OverrideFolderPath("Assets/YourFolder/Generated");
+    ...
+}
 ```
 
 ## Auto-generate on Compile

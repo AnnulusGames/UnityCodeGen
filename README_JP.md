@@ -85,10 +85,10 @@ GeneratorContext.OverrideFolderPathを利用することで、出力先のフォ
 
 ```cs
 public void Execute(GeneratorContext context)
-    {
-        context.OverrideFolderPath("Assets/YourFolder/Generated");
-        ...
-    }
+{
+    context.OverrideFolderPath("Assets/YourFolder/Generated");
+    ...
+}
 ```
 
 ## コンパイル時に自動生成
