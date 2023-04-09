@@ -1,0 +1,15 @@
+{
+    "name": "com.annulusgames.unity-codegen",
+    "displayName": "Unity CodeGen",
+    "version": "1.0.0",
+    "unity": "2020.1",
+    "license": "MIT",
+    "author": {
+        "name": "Annulus Games",
+        "url": "https://github.com/AnnulusGames"
+    },
+    "description": "Code Generation Library for Unity Editor",
+    "dependencies": {
+
+    }
+}
